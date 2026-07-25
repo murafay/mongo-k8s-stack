@@ -1,0 +1,10 @@
+mongodb:
+  image: mongo
+  replicas: 1
+  rootUsername: root
+  rootPassword: password
+
+mongoExpress:
+  image: mongo-express
+  replicas: 1
+  nodePort: 30000
