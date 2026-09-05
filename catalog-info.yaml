@@ -6,6 +6,6 @@ metadata:
   annotations:
     github.com/murafay/mongo-k8s-stack   # owner/repo
 spec:
-  type: service               # or: website, library
+  type: other
   lifecycle: experimental
-  owner: platform             # a team/group; 'platform' already exists in our catalog
+  owner: platform
