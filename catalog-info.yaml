@@ -1,10 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-repo-name          # kebab-case, must be unique in the catalog
-  description: What this repo does
+  name: mongo-k8s-stack
   annotations:
-    github.com/murafay/mongo-k8s-stack   # owner/repo
+    github.com/project-slug: murafay/mongo-k8s-stack
 spec:
   type: other
   lifecycle: experimental
